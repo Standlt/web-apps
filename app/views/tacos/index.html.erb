@@ -1,0 +1,20 @@
+<h1>Amigos</h1>  
+
+<p>How are we doing? Who wants tacos? These are my recs:</p>
+
+<% fillings = ["Carnitas", "Al Pastor", "Pescado", "Mushroom"]%>
+
+<!-- I'm a comment in html language -->
+
+<p>We have <%= fillings.count %> </p>
+
+<ul>
+
+
+<% for filling in fillings %>
+
+<li> <%= filling %> </li>
+
+
+<% end%>
+</ul>
